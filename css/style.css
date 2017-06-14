@@ -1,8 +1,31 @@
 [canvas=container],
 [off-canvas] {
-    padding: 10px 20px;
+/*    padding: 10px 20px; */
 }
 
 [class*=js-] {
     cursor: pointer;
+}
+
+nav {
+    background-color: gray;
+    padding: 10px 5px;
+    border-bottom: solid #32CD32 2px;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
+
+img {
+    padding: 0;
+    margin: 0
+}
+
+.location {
+    padding: 0;
+    margin: 0;
+    height: 50px;
+    width: 50px
 }
