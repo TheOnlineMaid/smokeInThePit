@@ -29,3 +29,21 @@ img {
     height: 50px;
     width: 50px
 }
+
+.block {
+    background-color: #32CD32;
+    padding: 0;
+}
+
+.blockli {
+    margin-bottom: 10px;
+    border-bottom: solid #fff 2px;
+}
+
+li {
+    list-style-type: none;
+}
+
+[off-canvas] {
+    background-color: #32CD32; 
+}
