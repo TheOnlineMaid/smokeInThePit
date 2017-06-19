@@ -4,6 +4,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -24,11 +28,37 @@
             </a>
         </nav>
         <div class="pl-2 pr-2">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="img/catering.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img/smokindeal.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="img/catering.jpg" alt="Third slide">
+                </div>
+            </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
             <div class="eLetter text-center">
                 <ul class="">
-                    <li>Get special deals for your inbox</li>
+                    <li class="openSans">Get special deals for your inbox</li>
                     <a href="#">
-                        <li><strong>Join The Smoke in the Pit Family</strong></li>
+                        <li class="arvo"><strong>Join The Smoke in the Pit Family</strong></li>
                     </a>
                 </ul>
             </div>
@@ -54,9 +84,86 @@
                 </div>
             </div>
         </div>
-        <div class="pl-2 pr-2">
+        <div class="mt-2 pl-2 pr-2">
             <button type="button" class="btn btn-block btn-success btn-lg mt-1 ">VIEW<br>MENU</button>
         </div>
+        <div class="promoLinks mt-2 text-center pl-2 pr-2">
+            <div class="backGreen pt-1">
+                <a href="#">
+                    <h3>Spread the BBQ Love!</h3>
+                    <span> Get A Gift Card!</span>
+                </a>
+            </div>
+            <div class="backGreen mt-2">
+                <a href="#">
+                    <h3>Turn that event into a BBQ event</h3>
+                    <span>Get a Catering Quote</span>
+                </a>
+            </div>
+            <div class="backGreen mt-2">
+                <a href="#">
+                    <h3>Join the Newsletter</h3>
+                    <span>Become a Insider</span>
+                </a>
+            </div>
+        </div>
+        <footer>
+            <div class="footerNav text-center">
+                <div class="#">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                GET A GIFT CARD
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                JOIN THE NEWSLETTER
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Meet the Owner</li>
+                    </ul>
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Shop Our Store</li>
+                    </ul>
+                </div>
+                <div class="socialLinks">
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="#">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="#">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="copyRight">
+                        <p>&copy Smoke in the Pit 2017</p>
+                    </div>
+                 </div>
+            </div>
+        </footer>
     </div>
     <div off-canvas="slidebar-1 left reveal">
         <ul class="block text-center">

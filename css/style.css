@@ -33,11 +33,18 @@ img {
 .block {
     background-color: #000;
     padding: 0;
+    font-family: 'Arvo', serif;
+    font-weight: 600;
+    font-size: 1.3em;
+
+}
+.blockli a {
+    padding: 1.2em;
 }
 
 .blockli {
-    margin-bottom: 10px;
     border-bottom: solid #fff 2px;
+    padding: 12.8% 0;
 }
 
 li {
@@ -74,6 +81,7 @@ ul {
 .eLetter {
     background-color: #fff;
     margin: 5px 0 0 0;
+
 }
 
 [canvas=container] {
@@ -84,6 +92,10 @@ ul {
     background-color: #fff;
     margin: 5px 0;
     padding: 5px 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+
 }
 
 .whiteFull {
@@ -94,8 +106,44 @@ ul {
 .time {
     border-top: solid #32CD32 2px;
     border-bottom: solid #32CD32 2px;
+
 }
 
 .btn {
     border-radius: 8px;
+}
+
+.backGreen h3 {
+    color: #000;
+    padding: .5em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.backGreen {
+    background-color: #5cb85c;
+    padding: 1em;
+}
+
+.backGreen span {
+    color: #fff;
+}
+
+.promoLinks {
+}
+
+.copyRight {
+    color: #fff;
+}
+
+.footerNav {
+    color: #fff;
+}
+
+.openSans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.arvo {
+    font-family: 'Arvo', serif;
 }
